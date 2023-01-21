@@ -4,8 +4,8 @@ const chai = require("chai");
 const {expect} = chai;
 
 // Testing files
-const chaiFs = require("../lib/index.js");
-chai.use(chaiFs);
+const chaiDuration = require("../lib/index.js");
+chai.use(chaiDuration);
 
 describe('The assertion library', function ()
 {
