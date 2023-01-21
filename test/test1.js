@@ -112,4 +112,9 @@ describe('The assertion library', function ()
         expect([startDate, endDate]).to.have.time.difference.shorter.duration("2min");
     });
 
+    it('should assume time difference are equal', async function ()
+    {
+        expect(["1s", "5s"]).to.have.time.difference.same.as.duration("4s");
+    });
+
 });
