@@ -1,7 +1,7 @@
 {
   "name": "chai-duration",
   "author": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "devDependencies": {
     "chai": "^4.3.7",
     "chai-fs": "^2.0.0",
@@ -12,7 +12,7 @@
   "directories": {
     "lib": "lib"
   },
-  "keywords": ["chai", "chai-plugin", "performance", "test", "duration"],
+  "keywords": [],
   "readme": "README.md",
   "dependencies": {
     "@thimpat/libutils": "^1.15.8"
@@ -20,6 +20,5 @@
   "scripts": {
     "test": "mocha test"
   },
-  "keywords": [],
   "license": "MIT"
 }
