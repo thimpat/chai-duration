@@ -12,6 +12,7 @@
   "directories": {
     "lib": "lib"
   },
+  "keywords": ["chai", "chai-plugin", "performance", "test", "duration"],
   "readme": "README.md",
   "dependencies": {
     "@thimpat/libutils": "^1.15.8"
