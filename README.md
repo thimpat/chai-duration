@@ -92,7 +92,7 @@ it('should assume time differences longer than 1 second', async function ()
 
 
 ```javascript
-it('should assume the time difference between 1s and 5s is equal to 4s', async function ()
+it('should assume the time difference between 1s and 5s to equal 4s', async function ()
 {
     expect(["1s", "5s"]).to.have.time.difference.same.as.duration("4s");
 });
