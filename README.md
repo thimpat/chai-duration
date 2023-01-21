@@ -12,7 +12,7 @@ Assertions on durations for testing performances
 ## Installation
 
 ```shell
-npm install chai-fs -D
+npm install chai-duration -D
 ```
 
 <br/>
