@@ -25,8 +25,8 @@ npm install chai-duration -D
 ```javascript
 const chai = require("chai");
 
-const chaiFs = require("chai-duration");
-chai.use(chaiFs);
+const chaiDuration = require("chai-duration");
+chai.use(chaiDuration);
 ```
 
 <br/>
